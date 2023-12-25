@@ -1,0 +1,109 @@
+@font-face {
+	font-family: 'Impact';
+	font-style: NORMAL;
+	src: url(../../media/font/impact.ttf) format('woff2');
+}
+
+@font-face {
+	font-family: 'Tahoma';
+	font-style: NORMAL;
+	font-weight: WEIGHT;
+	src: url(../../media/font/tahoma.ttf) format('woff2');
+}
+
+h1{
+	color: #FFFFFF;
+	font-size: 30px;
+	font-family: "Impact";
+	-webkit-text-stroke: 1px #005CFF
+
+}
+
+h2{
+	font-size: 30px;
+	font-family: "Impact";
+	color: #ffffff;
+	-webkit-text-stroke: 1px #005CFF;
+}
+
+h3{
+	font-size: 18px;
+	font-family: "Impact";
+	color: #ffffff;
+	-webkit-text-stroke: 0.1px #005CFF;
+	margin-top: -10px;
+}
+
+h4{
+	color: #FFFFFF;
+	-webkit-text-stroke: 1px #005CFF;
+	font-size: 50px;
+	font-family: "Impact";
+}
+
+h5{
+	color: #FFFFFF;
+	-webkit-text-stroke: 0.3px #005CFF;
+	font-size: 22px;
+	font-family: "Impact";
+	margin-top: 0px;
+}
+
+h6{
+	color: #FFFFFF;
+	-webkit-text-stroke: 0.2px #005CFF;
+	font-size: 15px;
+	font-family: "Impact";
+}
+
+p{
+	color: #FFFFFF;
+	-webkit-text-stroke: 0.5px #005CFF;
+	font-size: 22px;
+	font-family: "Tahoma";
+	margin-top: 0px;
+}
+
+h1:hover{
+	color: #FF7400;
+	-webkit-text-stroke: 1px #A60000;
+}
+
+.matirials_blocktext{
+	color: #FFFFFF;
+	-webkit-text-stroke: 0.5px #005CFF;
+	font-size: 16px;
+	font-family: "Tahoma";
+	margin-top: 0px;
+}
+
+@media only screen and (max-width: 400px) {
+	h1{
+		color: #FFFFFF;
+		font-size: 20px;
+		font-family: "Impact";
+		-webkit-text-stroke: 1px #005CFF
+	}
+
+	p{
+		color: #FFFFFF;
+		-webkit-text-stroke: 0.5px #005CFF;
+		font-size: 15px;
+		font-family: "Tahoma";
+		margin-top: 0px;
+	}
+
+	h2{
+		font-size: 20px;
+		font-family: "Impact";
+		color: #ffffff;
+		-webkit-text-stroke: 1px #005CFF;
+	}
+
+	h4{
+		color: #FFFFFF;
+		-webkit-text-stroke: 1px #005CFF;
+		font-size: 35px;
+		font-family: "Impact";
+	}
+}

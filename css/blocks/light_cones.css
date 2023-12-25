@@ -1,0 +1,142 @@
+.block-light-cones{
+    display: flex;
+  	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.block-light{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 25px;
+}
+
+.block-blue{
+    width: 500px;
+    height: 160px;
+    display: flex;
+  	flex-wrap: wrap;
+	justify-content: space-evenly;
+	border-radius: 0px 50px 50px 0px;
+	background: linear-gradient(#020202, #020204, #000C79);
+}
+
+.block-orange{
+    width: 160px;
+    height: 160px;
+    border-radius: 50px 0px 0px 50px;
+    background: linear-gradient(135deg, #B03500 0%, #F0AD00 100%);
+}
+
+.block-purple{
+    background: linear-gradient(135deg, #21007E 0%, #AD00FF 100%);
+    width: 160px;
+    height: 160px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.block-light_blue{
+    background: linear-gradient(135deg, #0007BF 0%, #0094FF 100%);
+    width: 160px;
+    height: 160px;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.photo-cones{
+    margin-top: 30px;
+}
+
+.text-cones{
+    margin-top: 40px;
+    margin-right: 0px;
+}
+
+.star-cones{
+    margin-top: -30px;
+}
+
+.block-text-cones{
+    display: block;
+    width: 350px;
+    margin-top: -5px;
+}
+
+.img-cones{
+    width: 130px;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 400px) {
+    .block-light-cones{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .block-light{
+        display: flex;
+        justify-content:center;
+        margin-bottom: 25px;
+    }
+    
+    .block-blue{
+        width: 280px;
+        height: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        border-radius: 0px 30px 30px 0px;
+        background: linear-gradient(#020202, #020204, #000C79);
+    }
+    
+    .block-orange{
+        width: 90px;
+        height: 90px;
+        border-radius: 30px 0px 0px 30px;
+        background: linear-gradient(135deg, #B03500 0%, #F0AD00 100%);
+    }
+    
+    .block-purple{
+        background: linear-gradient(135deg, #21007E 0%, #AD00FF 100%);
+        width: 90px;
+        height: 90px;
+        border-radius: 30px 0px 0px 30px;
+    }
+    
+    .block-light_blue{
+        background: linear-gradient(135deg, #0007BF 0%, #0094FF 100%);
+        width: 90px;
+        height: 90px;
+        border-radius: 30px 0px 0px 30px;
+    }
+    
+    .photo-cones{
+        margin-top: 18px;
+        width: 55px;
+        height: 55px;
+    }
+    
+    .text-cones{
+        margin-top: 40px;
+        margin-right: 0px;
+    }
+    
+    .star-cones{
+        margin-top: -20px;
+        width: 100px;
+    }
+    
+    .block-text-cones{
+        display: block;
+        width: 220px;
+        margin-top: -20px;
+    }
+    
+    .img-cones{
+        width: 80px;
+        margin-top: 5px;
+    }
+}

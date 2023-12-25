@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+</head>
+<body>
+    <header>            
+        <nav class = "title">
+            <ul class = "title-menu">
+
+                <li class="title-logo">
+                    <button class="head_modal">TREVEL TO THE STAR</button>
+                </li>
+
+                <li class="title-item">
+                    <a href = "index.html">Главная</a>
+                </li>
+
+                <li class="title-item">
+                    <a href = "characters.html">Персонажи</a>
+                </li>
+
+                <li class="title-item">
+                    <a href = "relics.html">Реликвии</a>
+                </li>
+
+                <li class="title-item">
+                    <a href = "light_cones.html">Световой конус</a>
+                </li>
+
+                <li class="title-item">
+                    <a href = "handbook.html">Справочник</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <div class="popup">
+        <div class="popup_body">
+            <h2>Текущая версия: 1.6</h2>
+            <h2>Доступны банеры:</h2>
+            <div class="banner_nowrap">
+                <div class="pers_left">
+                    <img src="media/modal/Argenti_Sticker_01.png" width="150px" height="150px">
+                    <h1>Аргенти</h1>
+                </div>
+                <div class="pers_right">
+                    <img src="media/modal/Silver_Wolf_Sticker_01.png" width="150px" height="150px">
+                    <h1>Серебряный Волк</h1>
+                </div>
+            </div>
+            <div class="popup_close">&#10006;</div>
+        </div>
+        
+    </div>
+
+
+    <section>
+        <div class="photo-main">
+            <div class="photo_main characters">
+                <div class="circle">
+                    <a href="characters.html"><img src="media/main/characters_icon.png" width="160" height="160">
+                        <div class="circle_text"><h1>Персонажи</h1></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="photo_main relics">
+                <div class="circle">
+                    <a href="relics.html"><img src="media/main/relics_icon.png" width="160" height="160">
+                        <div class="circle_text"><h1>Реликвии</h1></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="photo_main light_cones">
+                <div class="circle">
+                    <a href="light_cones.html"><img src="media/main/light_cones_icon.png" width="160" height="160">
+                        <div class="circle_text"><h1>Световой<br>конус</h1></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="photo_main handbook">
+                <div class="circle">
+                    <a href="handbook.html"><img src="media/main/handbook_icon.png" width="160" height="160">
+                        <div class="circle_text"><h1>Справочник</h1></div></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let modalOpen = document.querySelector('.head_modal');
+        let modal = document.querySelector('.popup');
+        let modalClose = document.querySelector('.popup_close');
+
+        modalOpen.onclick = function() {
+            modal.style.display = 'block';
+        }
+
+        modalClose.onclick = function() {
+            modal.style.display = 'none';
+        }
+    </script>
+</body>
+</html>

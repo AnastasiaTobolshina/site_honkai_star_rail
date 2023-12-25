@@ -1,0 +1,276 @@
+body  {
+	background-image: url(../../media/computer.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	/* background-position: 0px 0px; */
+	
+}
+
+@font-face {
+	font-family: 'Neutra';
+	font-style: NORMAL;
+	src: url(../../media/font/neutra-2.ttf) format('woff2');
+}
+
+@media only screen and (max-width: 800px) {   
+	body {
+	/* background-color: #0d0057; */
+	/* background-image: url(../../media/mobile.png); */
+	background-repeat: no-repeat;
+	background-size: cover;   
+	background-position: 80% 80%;
+	background-attachment: fixed;
+} }
+
+/* html{
+	height:100%;
+} */
+
+footer{
+	margin-top: 3.125em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 90.625em;
+	white-space: wrap;
+}
+
+header{
+	margin-top: 3.125em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	white-space: wrap;
+	margin-left: -0.7em;
+}
+
+nav{
+	display: inline-block;
+}
+
+li{
+	display: inline;
+	font-size: 1.875em;
+	font-family: "Impact";
+	margin-left: 5px;
+	margin-right: 5px;
+	-webkit-text-stroke: 0.5px #005CFF
+}
+
+.photo-main{
+	display: flex;
+    margin: auto;
+    margin-top: 120px;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+.characters, .relics, .light_cones, .handbook{
+	display: flex;
+	text-align: center;
+}
+
+.title-logo{
+	display: inline-block;
+	font-size: 50px;
+	text-decoration: underline;
+	font-family: "Neutra";
+	text-decoration: none;
+	color: #FFFFFF;
+	-webkit-text-stroke: 2px #005CFF
+}
+
+button{
+	display: inline-block;
+	font-size: 50px;
+	text-decoration: underline;
+	font-family: "Neutra";
+	text-decoration: none;
+	color: #FFFFFF;
+	-webkit-text-stroke: 2px #005CFF;
+	padding: 0;
+	border: none;
+	background: none;
+	text-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+
+.title-item :hover{
+	color: #FF7400;
+	-webkit-text-stroke: 2px #A60000;
+}
+  
+a{
+	color: #FFFFFF;
+	-webkit-text-stroke: 2px #005CFF;
+	text-decoration: none;
+}
+
+.NO{
+	background-image: url(../../media/photo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.photo_main{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #005CFF;
+	display: block;
+	text-align: center;
+}
+
+
+.circle{
+	height: 100px;
+	width: 100px;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+}
+
+.circle_text{
+	display: flex;
+	width: 160px;
+	justify-content: center;
+}
+
+.photo_main:hover{
+	background: #FF7400;
+}
+
+.informationBCD{
+	display: block;
+	text-align: center;
+}
+
+.popup{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	background-color: rgb(0, 0, 0, 0.5);
+}
+
+.popup_body h2{
+	cursor: default;
+}
+
+.popup_body h1{
+	cursor: pointer;
+}
+
+.popup_body{
+	border-radius: 50px;
+	background: linear-gradient(180deg, #020202 0%, #020204 40.28%, #000C79 100%);
+	width: 600px;
+	height: 400px;
+	margin: 170px auto;
+	display: block;
+	text-align: center;
+	border-radius: 50px;
+	padding: 20px;
+	position: relative;
+}
+
+.popup_close{
+	position: absolute;
+	top: 30px;
+	left: 550px;
+	color: #FFFFFF;
+	-webkit-text-stroke: 2px #005CFF;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+.popup_close:hover{
+	position: absolute;
+	top: 30px;
+	left: 550px;
+	color: #FF7400;
+	-webkit-text-stroke: 2px #A60000;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+.banner_nowrap{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 400px) {
+	.title-logo{
+		display: inline-block;
+		font-size: 1.68em;
+		text-decoration: underline;
+		font-family: "Neutra";
+		text-decoration: none;
+		-webkit-text-stroke: 2px #005CFF
+	}
+	li{
+		display: inline;
+		font-size: 1.40em;
+		font-family: "Impact";
+		margin-left: 0.1em;
+		margin-right: 0.1em;
+		-webkit-text-stroke: 0.025em #005CFF
+		
+	}
+
+	.circle img{
+		width: 7em;
+		height: 7em;
+		margin-top: -0.7em;
+		margin-left: -0.7em;
+	}
+	.photo_main{
+		margin-top: 3em;
+		
+	}
+	.photo-main{
+		margin-top: -1em;
+		/* padding-bottom: 3em; */
+	}
+	.photo_main{
+		width: 8.125em;
+		height: 8.125em;
+		border-radius: 50%;
+		background: #005CFF;
+		display: block;
+		text-align: center;
+	}
+	.circle_text{
+		display: flex;
+		width: 5.5em;
+		justify-content: center;
+	}
+
+	header{
+		margin-top: 3.125em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		white-space: wrap;
+		margin-left: -0.7em;
+	}
+	footer{
+		margin-top: 2.125em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		white-space: wrap;
+		width: 100%;
+		margin-left: -20px;
+		
+	}
+	
+}

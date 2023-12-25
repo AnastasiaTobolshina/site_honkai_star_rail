@@ -1,0 +1,283 @@
+.opponents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.block_opponents{
+    display: block;
+	text-align: center;
+
+	width: 650px;
+	height: 650px;
+	border-radius: 50px;
+	background: linear-gradient(#020202, #020204, #000C79);
+    margin-bottom: 30px;
+}
+
+.block_{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo_opponents{
+    margin-top: 60px;
+    margin-left: -20px;
+}
+
+.name_opponents{
+    margin-left: -20px;
+    max-width: 350px;
+}
+
+.vulnerable_opponents{
+    max-width: 100px;
+    margin-top: -240px;
+    margin-left: 250px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.vulnerable_opponents_photo{
+    padding-left: 10px;
+    margin-top: -4px;
+}
+
+.description_opponents{
+    max-width: 370px;
+    margin-left: 250px;
+    margin-top: -200px;
+    text-align: start;
+}
+
+.trophies_text{
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+.trophies_bock{
+    display: block;
+    margin-top: 20px;
+    margin-left: -107px;
+    padding-right: 120px;
+    flex-wrap: nowrap;
+
+}
+
+.trophies_bock_top2{
+    width: 110px;
+	height: 120px;
+    border-radius: 0px 50px 0px 0px;
+    background: linear-gradient(135deg, #4B595D 0%, #6A946F 100%);
+}
+
+.trophies_bock_top3{
+    width: 110px;
+	height: 120px;
+    border-radius: 0px 50px 0px 0px;
+    background: linear-gradient(135deg, #0007BF 0%, #0094FF 100%);
+}
+
+.trophies_bock_top4{
+    width: 110px;
+	height: 120px;
+    border-radius: 0px 50px 0px 0px;
+    background: linear-gradient(135deg, #21007E 0%, #AD00FF 100%);
+}
+
+.trophies_bock_top5{
+    width: 110px;
+	height: 120px;
+    border-radius: 0px 50px 0px 0px;
+    background: linear-gradient(135deg, #B03500 0%, #F0AD00 100%);
+}
+
+.trophies_bock_bottom p{
+    width: 110px;
+    height: 70px;
+    max-height: 70px;
+    vertical-align: baseline;
+    border-radius: 0px 0px 10px 10px;
+    background: #4C4C4C;
+    font-size: 18px;
+}
+
+.trophies{
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.trophies_wrap{
+    display: flex;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    .opponents{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .block_opponents{
+        display: block;
+        text-align: center;
+        width: 340px;
+        height: 830px;
+        border-radius: 40px;
+        background: linear-gradient(#020202, #020204, #000C79);
+        margin-bottom: 30px;
+    }
+    
+    .block_{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .photo_opponents img{
+        margin-top: -15px;
+        margin-left: 0px;
+        width: 150px;
+        height: 160px;
+    }
+    
+    .name_opponents h2{
+        margin-left: 0px;
+        max-width: 200px;
+        font-size: 21px;
+        margin-top: 40px;
+        padding-right: 5px;
+        -webkit-text-stroke: 1px #005CFF;
+    }
+    
+    .vulnerable_opponents h5{
+        max-width: 100px;
+        margin-top: 97px;
+        margin-left: -110px;
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 20px;
+        -webkit-text-stroke: 1px #005CFF;
+        min-width: 110px;
+    }
+
+    .vulnerable_opponents{
+        margin-top: -160px;
+    }
+    
+    .vulnerable_opponents_photo img{
+        margin-left: -10px;
+        padding-left: 0px;
+        margin-top: 105px;
+        width: 20px;
+    }
+    
+    .description_opponents{
+        max-width: 315px;
+        margin-left: 15px;
+        margin-top: 0px;
+        text-align: start;
+    }
+
+    .description_opponents p{
+        font-size: 20px;
+    }
+    
+    .trophies_text h2{
+        margin-left: -290px;
+        margin-top: 40px;
+        font-size: 20px;
+        -webkit-text-stroke: 1px #005CFF;
+    }
+    
+    .trophies_bock{
+        display: block;
+        margin-top: 0px;
+        margin-left: 0px;  
+        padding-right: 10px;  
+        padding-left: 0px;
+        padding-bottom: 10px;
+    }
+
+    .trophies_wrap{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .trophies_bock_top2{
+        width: 110px;
+        height: 90px;
+        border-radius: 0px 30px 0px 0px;
+        background: linear-gradient(135deg, #4B595D 0%, #6A946F 100%);
+    }
+    
+    .trophies_bock_top3{
+        width: 110px;
+        height: 90px;
+        border-radius: 0px 20px 0px 0px;
+        background: linear-gradient(135deg, #0007BF 0%, #0094FF 100%);
+    }
+    
+    .trophies_bock_top4{
+        width: 110px;
+        height: 90px;
+        border-radius: 0px 20px 0px 0px;
+        background: linear-gradient(135deg, #21007E 0%, #AD00FF 100%);
+    }
+    
+    .trophies_bock_top5{
+        width: 110px;
+        height: 90px;
+        border-radius: 0px 20px 0px 0px;
+        background: linear-gradient(135deg, #B03500 0%, #F0AD00 100%);
+    }
+    
+    .trophies_bock_bottom p{
+        width: 110px;
+        height: 65px;
+        max-height: 70px;
+        vertical-align: baseline;
+        border-radius: 0px 0px 10px 10px;
+        background: #4C4C4C;
+        font-size: 12px;
+    }
+
+    .trophies_bock_bottom p{
+        font-size: 17px;
+        -webkit-text-stroke: 0.3px #005CFF;
+    }
+    
+    .trophies{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .trophies_bock_top_photo img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .svin h2{
+        margin-left: -40px;
+        /* max-width: 180px; */
+        text-align: start;
+    }
+
+    .svin{
+        width: 300px;
+        max-height: 100px;
+        margin-left: 55px;
+    }
+
+    .svin2{
+        display: flex;
+    }
+}

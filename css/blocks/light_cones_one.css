@@ -1,0 +1,326 @@
+.information_cones{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block_cones{
+    display: block;
+    text-align: center;
+	width: 900px;
+	height: 560px;
+	border-radius: 50px;
+	background: linear-gradient(#020202, #020204, #000C79);
+}
+
+.information_one{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.photo_cones_one{
+    margin-top: 80px;
+    padding-right: 30px;
+}
+
+.star5_cones{
+    margin-left: 100px;
+    margin-top: -70px;
+}
+
+.text_information_one{
+    display: block;
+    text-align: justify;
+    max-width: 800px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.materials_description{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.materials_cones{
+    width: 400px;
+	height: 170px;
+	border-radius: 50px;
+	background: linear-gradient(#020202, #020204, #000C79);
+}
+
+.description_cones{
+    width: 900px;
+	height: 1020px;
+	border-radius: 50px;
+	background: linear-gradient(#020202, #020204, #000C79);
+}
+
+.improvement{
+    display: flex;
+    margin-left: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.improvement-text1{
+    display: flex;
+    margin-left: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: block;
+    text-align: justify;
+    max-width: 760px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.improvement-text{
+    display: block;
+    text-align: justify;
+    max-width: 760px;
+    margin: auto;
+}
+
+.materials_cones_line1{
+    display: flex;
+    vertical-align: middle;
+}
+
+.materials_cones_block{
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.materials_cones_block_blue{
+    width: 90px;
+	height: 90px;
+	border-radius: 0px 50px 0px 0px;
+    background: linear-gradient(135deg, #0007BF 0%, #0094FF 100%);
+}
+
+.materials_cones_block_green{
+    width: 90px;
+	height: 90px;
+	border-radius: 0px 50px 0px 0px;
+    background: linear-gradient(135deg, #4B595D 0%, #6A946F 100%);
+}
+
+.materials_cones_block_purple{
+    width: 90px;
+	height: 90px;
+	border-radius: 0px 50px 0px 0px;
+    background: linear-gradient(135deg, #21007E 0%, #AD00FF 100%);
+}
+
+.materials_cones_block_grey{
+    width: 90px;
+	height: 30px;
+	border-radius: 0px 0px 10px 10px;
+    background: #4C4C4C;
+}
+
+.materials_cones_textblock{
+    display: block;
+    text-align: center;
+    margin-top: -59px;
+}
+
+.materials_cones_text{
+    margin-left: 20px;
+    margin-top: 67px;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+    .information_cones{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .photo_cones img{
+        width: 300px;
+        height: 450px;
+    }
+    
+    .block_cones{
+        display: block;
+        text-align: center;
+        width: 300px;
+        height: 420px;
+        border-radius: 25px;
+        background: linear-gradient(#020202, #020204, #000C79);
+    }
+    
+    .information_one{
+        display: flex;
+        justify-content: center;
+        margin-top: -20px;
+    }
+
+    .information_one img{
+        width: 70px;
+        height: 70px;
+
+    }
+    
+    .information_one h4{
+        font-size: 22px;
+        margin-left: -50px;
+        margin-top: 40px;
+    }
+
+    .photo_cones_one{
+        margin-top: 30px;
+        padding-right: 60px;
+        margin-left: 0px;
+    }
+    
+    .star5_cones{
+        margin-left: 80px;
+        margin-top: -45px;
+    }
+
+    .star5_cones img{
+        width: 120px;
+        height: 50px;
+    }
+
+    .text_information_one{
+        display: block;
+        text-align: justify;
+        max-width: 250px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    
+    .materials_description{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    
+    .wrap{
+        flex-wrap: wrap;
+    }
+    
+    .materials_cones{
+        width: 300px;
+        height: 150px;
+        border-radius: 25px;
+        background: linear-gradient(#020202, #020204, #000C79);
+    }
+    
+    .description_cones{
+        margin-top: 50px;
+        width: 300px;
+        height: 1300px;
+        border-radius: 25px;
+        background: linear-gradient(#020202, #020204, #000C79);
+    }
+    
+    .improvement{
+        display: flex;
+        margin-left: 15px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    .improvement h4{
+        font-size: 20px;
+    }
+    
+    .improvement-text1{
+        display: flex;
+        margin-left: 50px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        display: block;
+        text-align: justify;
+        max-width: 240px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .materials_cones_line1{
+        display: flex;
+        vertical-align: middle;
+    }
+    
+    .materials_cones_block{
+        margin-top: 25px;
+        margin-right: 5px;
+    }
+    
+    .materials_cones_block_green{
+        width: 60px;
+        height: 60px;
+        border-radius: 0px 25px 0px 0px;
+        background: linear-gradient(135deg, #4B595D 0%, #6A946F 100%);
+    }
+
+    .materials_cones_block_green img{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .materials_cones_block_blue{
+        width: 60px;
+        height: 60px;
+        border-radius: 0px 25px 0px 0px;
+        background: linear-gradient(135deg, #0007BF 0%, #0094FF 100%);
+    }
+
+    .materials_cones_block_blue img{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .materials_cones_block_purple{
+        width: 60px;
+        height: 60px;
+        border-radius: 0px 25px 0px 0px;
+        background: linear-gradient(135deg, #21007E 0%, #AD00FF 100%);
+    }
+
+    .materials_cones_block_purple img{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .materials_cones_block_grey{
+        width: 60px;
+        height: 30px;
+        border-radius: 0px 0px 10px 10px;
+        background: #4C4C4C;
+    }
+    
+    .materials_cones_textblock{
+        display: block;
+        text-align: center;
+        margin-top: -59px;
+    }
+    
+    .materials_cones_text{
+
+        margin-left: 20px;
+        margin-top: 67px;
+        margin-right: 20px;
+    }
+
+    .materials_cones_text h5{
+        font-size: 20px;
+        -webkit-text-stroke: 1px #005CFF;
+    }
+
+    .materials_cones_textblock h6{
+        font-size: 15px;
+        -webkit-text-stroke: 1px #005CFF;
+    }
+}
